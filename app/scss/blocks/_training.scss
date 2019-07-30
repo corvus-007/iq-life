@@ -102,6 +102,29 @@
   margin: 0;
 }
 
+.training__footer {
+  margin-top: 64px;
+}
+
+.training__actions {
+}
+
+.training__actions-list {
+  @include clear-list();
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -16px;
+}
+
+.training__actions-item {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
 .training__picture {
   @include make-fit-object(16, 10);
 

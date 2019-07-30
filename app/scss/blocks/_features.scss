@@ -24,6 +24,11 @@
   }
 }
 
+.features__link {
+  text-decoration: none;
+  color: $base-color;
+}
+
 .features__value {
   position: relative;
   display: block;
@@ -66,6 +71,13 @@
   width: 76px;
   height: 76px;
   vertical-align: baseline;
+  fill: currentColor;
+  transition: 0.3s;
+
+  .features__link:hover &,
+  .features__link:focus & {
+    transform: scale3d(1.2, 1.2, 1.2);
+  }
 }
 
 .features__caption {
@@ -86,27 +98,4 @@
       font-size: 24px;
     }
   }
-}
-
-.features__footer {
-  margin-top: 64px;
-}
-
-.features__actions {
-}
-
-.features__actions-list {
-  @include clear-list();
-
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: -16px;
-}
-
-.features__actions-item {
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-bottom: 16px;
 }

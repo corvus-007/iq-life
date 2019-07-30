@@ -1,20 +1,50 @@
 .main-cta-form {
+  display: grid;
+  // grid-template-columns: 1fr;
+  grid-gap: 40px;
 
+  @include mq-min(768px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .main-cta-form__field {
-  margin-bottom: 40px;
+  margin-bottom: initial;
+
+  @include mq-min(768px) {
+    &--message {
+      grid-row-start: 1;
+      grid-row-end: 4;
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+  }
+}
+
+.main-cta-form__fields-group {
+  display: grid;
+  grid-gap: 40px;
+
+  @include mq-min(667px) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .main-cta-form__action-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 40px;
 
   @include mq-min(667px) {
     flex-direction: row;
     margin-top: 52px;
+  }
+
+  @include mq-min(768px) {
+    grid-column-start: 1;
+    grid-column-end: -1;
   }
 }
 
