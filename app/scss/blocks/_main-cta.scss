@@ -1,0 +1,92 @@
+.main-cta {
+  overflow: hidden;
+  background: url("images/bg-main-cta.jpg") no-repeat bottom;
+  background-size: 800px auto;
+}
+
+.main-cta__title {
+  max-width: 580px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+
+  @include mq-min(768px) {
+    margin-bottom: 84px;
+    font-size: 36px;
+  }
+}
+
+.main-cta__form {
+  position: relative;
+  z-index: 1;
+  max-width: 392px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-cta__people-bg {
+  position: relative;
+
+  @include mq-max(767px) {
+    display: none;
+  }
+}
+
+.main-cta__person {
+  position: absolute;
+  bottom: -76px;
+
+  img {
+    display: block;
+  }
+
+  @include mq-min(768px) {
+    width: 32%;
+
+    &--left {
+      left: -40px;
+      max-width: 461px;
+    }
+
+    &--right {
+      width: 36%;
+      right: -28px;
+      max-width: 486px;
+
+      img {
+        margin-left: auto;
+      }
+    }
+  }
+
+  @include mq-min(1024px) {
+    width: 36%;
+
+    &--left {
+      left: -80px;
+    }
+
+    &--right {
+      right: -20px;
+      width: 38%;
+    }
+  }
+
+  @include mq-min(1280px) {
+    width: 36%;
+
+    &--left {
+      left: -32px;
+    }
+
+    &--right {
+      right: 0;
+      width: 37%;
+    }
+  }
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <title>Главная</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-wrapper">
+    @@include('blocks/main-header.html')
+
+    <main class="main">
+      <section class="welcome">
+        <div class="welcome__inner container">
+          <div class="welcome__white-bg"></div>
+          <h1 class="welcome__title"><span>Сообщество разумных людей</span></h1>
+          <div class="welcome__picture">
+            <img src="images/welcome/persons.jpg" srcset="images/welcome/persons@2x.jpg 2x" alt="">
+          </div>
+          <p class="welcome__intro">Добро пожаловать <br> в мир осознанного будущего!</p>
+          <div class="welcome__actions">
+            <ul class="welcome__actions-list">
+              <li class="welcome__actions-item">
+                <a class="welcome__action-link welcome__action-link--style-1" href=""><span>Основы гармоничной жизни</span></a>
+              </li>
+              <li class="welcome__actions-item">
+                <a class="welcome__action-link welcome__action-link--style-2" href=""><span>Ключ к свободному времени</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="welcome__video">
+            <a class="welcome__video-link" href="https://youtu.be/8Cf34M8KsTo" data-fancybox aria-label="Запустить видео">
+              <img src="images/welcome/poster.jpg" srcset="images/welcome/poster@2x.jpg 2x" alt="">
+              <span class="welcome__video-play"></span>
+            </a>
+          </div>
+          <div class="welcome__socials socials">
+            <ul class="welcome__socials-list socials__list">
+              <li class="welcome__socials-item socials__item social" aria-label="Вконтакте">
+                <a class="welcome__social-link social__link" href="" target="_blank">
+                  <svg class="social__icon" width="16" height="16">
+                    <use xlink:href="images/symbols.svg#soc-vk"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="welcome__socials-item socials__item social" aria-label="Instagram">
+                <a class="welcome__social-link social__link" href="" target="_blank">
+                  <svg class="social__icon" width="16" height="16">
+                    <use xlink:href="images/symbols.svg#soc-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="features common-section">
+        <div class="container">
+          <h2>Преимущества</h2>
+
+          <ul class="features__list">
+            <li class="features__item">
+              <span class="features__value">5</span>
+              <span class="features__caption">
+                <b>лет</b>
+                накопленного опыта
+              </span>
+            </li>
+            <li class="features__item">
+              <span class="features__value">2</span>
+              <span class="features__caption">
+                <b>эксперта</b>
+                в области гармоничной жизни
+              </span>
+            </li>
+            <li class="features__item">
+              <span class="features__value">10</span>
+              <span class="features__caption">
+                <b>минут в день</b>
+                в среднем длятся видеоуроки
+              </span>
+            </li>
+            <li class="features__item">
+              <span class="features__value">
+                <svg class="features__icon" width="16" height="16" role="presentation">
+                  <use xlink:href="images/symbols.svg#gift-box"></use>
+                </svg>
+              </span>
+              <span class="features__caption">
+                <b>подарки</b>
+                каждому участнику курса
+              </span>
+            </li>
+          </ul>
+
+          <div class="features__footer features__actions">
+            <ul class="features__actions-list">
+              <li class="features__actions-item">
+                <a class="button" href="">Записаться</a>
+              </li>
+              <li class="features__actions-item">
+                <a class="button button--ghost" href="">Программа курса</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="targets common-section">
+        <div class="container">
+          <h2 class="targets__title">Мы знаем, как достичь самые главные цели:</h2>
+          <ul class="targets__list">
+            <li class="targets__item">
+              <div class="targets__icon-holder">
+                <svg class="targets__icon" width="16" height="16">
+                  <use xlink:href="images/symbols.svg#dzen"></use>
+                </svg>
+              </div>
+              <p class="targets__caption">Формирование осознанного гармоничного общества единомышленников</p>
+            </li>
+            <li class="targets__item">
+              <div class="targets__icon-holder">
+                <svg class="targets__icon" width="16" height="16">
+                  <use xlink:href="images/symbols.svg#spa"></use>
+                </svg>
+              </div>
+              <p class="targets__caption">Улучшение качества своей жизни и гармоничные отношения с окружающими</p>
+            </li>
+            <li class="targets__item">
+              <div class="targets__icon-holder">
+                <svg class="targets__icon" width="16" height="16">
+                  <use xlink:href="images/symbols.svg#partner"></use>
+                </svg>
+              </div>
+              <p class="targets__caption">Поиск деловых партнеров для реализации международных проектов</p>
+            </li>
+          </ul>
+
+          <div class="targets__free-tutorial free-tutorial">
+            <p class="free-tutorial__caption">
+              Лучше один раз увидеть!<br>
+              Посмотрите наш видеоурок<br>
+              на тему целей и ценностей – прямо сейчас!
+            </p>
+            <p class="free-tutorial__video">
+              <a class="free-tutorial__link" href="https://youtu.be/8Cf34M8KsTo" data-fancybox>
+                <span class="free-tutorial__video-play"></span>
+                <span class="free-tutorial__video-text">
+                  бесплатный видеоурок
+                  <em class="free-tutorial__video-name">Цели <br> и ценности</em>
+                </span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="training common-section">
+        <div class="container">
+          <div class="training__content">
+            <h2 class="training__title">Авторский тренинг “Ключи&nbsp;от&nbsp;будущего”</h2>
+            <ul class="training__list">
+              <li>
+                основы гармоничной жизни
+              </li>
+              <li>
+                отличие истинных целей от ложных
+              </li>
+              <li>
+                как избежать манипуляций в обществе
+              </li>
+              <li>
+                как выстраивать взаимоотношения
+              </li>
+              <li>
+                суть пассивного дохода и инструменты его достижения
+              </li>
+              <li>
+                ЗОЖ – тренд будущего
+              </li>
+              <li>
+                формирование активного долголетия
+              </li>
+            </ul>
+
+            <p class="training__coach training-coach">
+              <span class="training-coach__avatar">
+                <img src="https://images.unsplash.com/photo-1502980426475-b83966705988?ixlib=rb-1.2.1&auto=format&fit=crop&w=673&q=80" alt="Артем Мушинский" width="80" height="80">
+              </span>
+              <span class="training-coach__content">
+                <b class="training-coach__name">Артем Мушинский</b>
+                <span class="training-coach__description">Сертифицированный инструктор хатха-йоги с 6-тилетним стажем. Обучался у всемирно известных учителей йоги.</span>
+              </span>
+            </p>
+          </div>
+
+          <div class="training__picture">
+            <img src="https://images.unsplash.com/photo-1562560656-2032bdef49f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="" role="presentation">
+          </div>
+        </div>
+      </section>
+
+      <section class="our-team common-section">
+        <div class="our-team__inner container">
+          <div class="our-team__content">
+            <h2 class="our-team__title">Наша команда</h2>
+            <div class="our-team__person-info person-info person-info-carousel swiper-container" data-person-info-carousel>
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <h3 class="person-info__name">Андрей Екимов</h3>
+                  <p class="person-info__summary">Основатель школы IQ Life. Соавтор курса “Ключи от будущего”. Психолог-практик со стажем более 10 лет. Обучался у междунарожных лидеров в области психологии и гармоничной жизни.</p>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="person-info__name">Максим Иванов</h3>
+                  <p class="person-info__summary">Основатель школы IQ Life. Соавтор курса “Ключи от будущего”. Психолог-практик со стаже</p>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="person-info__name">Трофим Юдин</h3>
+                  <p class="person-info__summary">Основатель школы IQ Life. Соавтор курса “Ключи от будущего”. Психолог-практик со стажем более 10 лет. Обучался у междунарожных лидеров в области психологии и гармоничной жизни.</p>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="person-info__name">Катерина Голановa</h3>
+                  <p class="person-info__summary">Основатель школы IQ Life. Соавтор курса “Ключи от будущего”. Психолог-практик со стажем более 10 лет. Обучался у междунарожных лидеров в области психологии и гармоничной жизни.</p>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="person-info__name">Евгений Царёв</h3>
+                  <p class="person-info__summary">Основатель школы IQ Life. Соавтор курса “Ключи от будущего”. Психолог-практик со стажем более 10 лет. Обучался у междунарожных лидеров в области психологии и гармоничной жизни.</p>
+                </div>
+                <div class="swiper-slide">
+                  <h3 class="person-info__name">Дарья Гавриловa</h3>
+                  <p class="person-info__summary">Основатель школы IQ Life. Соавтор курса “Ключи от будущего”. Психолог-практик со стажем более 10 лет. Обучался у междунарожных лидеров в области психологии и гармоничной жизни.</p>
+                </div>
+              </div>
+              <div class="person-info-carousel__actions">
+                <div class="swiper-button-prev"></div>
+                <div class="person-info-carousel__pagination swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider main container -->
+          <div class="our-team__carousel our-team-carousel swiper-container" dir="rtl" data-our-team-carousel>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="our-team-carousel__item swiper-slide">
+                <div class="our-team-carousel__photo">
+                  <img src="https://images.unsplash.com/photo-1518562180175-34a163b1a9a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                </div>
+              </div>
+              <div class="our-team-carousel__item swiper-slide">
+                <div class="our-team-carousel__photo">
+                  <img src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="">
+                </div>
+              </div>
+              <div class="our-team-carousel__item swiper-slide">
+                <div class="our-team-carousel__photo">
+                  <img src="https://images.unsplash.com/photo-1534515538060-80212d73acb6?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" alt="">
+                </div>
+              </div>
+              <div class="our-team-carousel__item swiper-slide">
+                <div class="our-team-carousel__photo">
+                  <img src="https://images.unsplash.com/photo-1466839367266-2ee9f27151da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+                </div>
+              </div>
+              <div class="our-team-carousel__item swiper-slide">
+                <div class="our-team-carousel__photo">
+                  <img src="https://images.unsplash.com/photo-1533497016719-cb32082a2338?ixlib=rb-1.2.1&auto=format&fit=crop&w=1364&q=80" alt="">
+                </div>
+              </div>
+              <div class="our-team-carousel__item swiper-slide">
+                <div class="our-team-carousel__photo">
+                  <img src="https://images.unsplash.com/photo-1534996962990-bea9a89c0e6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-cta common-section">
+        <div class="container">
+          <h2 class="main-cta__title">Сделай шаг к лучшему будущему уже сегодня!</h2>
+          <form class="main-cta__form main-cta-form" action="" method="post">
+            <label class="main-cta-form__field field float-container">
+              <span class="field__label">Введите ваше имя</span>
+              <input type="text" class="field__input input" name="username" data-placeholder="">
+            </label>
+            <label class="main-cta-form__field field float-container">
+              <span class="field__label">Телефон</span>
+              <input type="tel" class="field__input input" name="userphone" data-placeholder="">
+            </label>
+            <label class="main-cta-form__field field float-container">
+              <span class="field__label">Электронная почта</span>
+              <input type="email" class="field__input input" name="usermail" data-placeholder="">
+            </label>
+            <div class="main-cta-form__action-wrapper">
+              <button class="main-cta-form__submit button" type="submit">Записаться</button>
+              <p class="main-cta-form__agree"><small>Нажимая “Оставить заявку”, вы даете согласие на обработку персональных даных</small></p>
+            </div>
+          </form>
+        </div>
+        <!-- <div class="main-cta__people-bg">
+          <div class="main-cta__person main-cta__person--left">
+            <img src="images/left-man.png" srcset="images/left-man@2x.png 2x" alt="">
+          </div>
+          <div class="main-cta__person main-cta__person--right">
+            <img src="images/right-man.png" srcset="images/right-man@2x.png 2x" alt="">
+          </div>
+        </div> -->
+      </section>
+    </main>
+
+    @@include('blocks/main-footer.html')
+  </div>
+  @@include('blocks/site-scripts.html')
+</body>
+</html>

@@ -1,0 +1,32 @@
+.main-footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: #ffffff;
+  background-color: #0b0910;
+}
+
+.main-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-footer__logo {
+  margin-left: 24px;
+}
+
+.main-footer__socials {
+
+}
+
+.main-footer__socials-item {
+  margin-right: 16px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.main-footer__social-link {
+  color: #ffffff;
+}
