@@ -46,7 +46,7 @@ textarea.form-control {
 }
 
 .form-submit-wrapper {
-  margin-top: 1.5rem;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -99,6 +99,8 @@ span.wpcf7-not-valid-tip {
 
 .wpcf7-form-control-wrap {
   display: block;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .invalid {

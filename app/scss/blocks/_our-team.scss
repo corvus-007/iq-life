@@ -15,12 +15,11 @@
 .our-team__content {
   z-index: 5;
   flex-shrink: 0;
-  width: 360px;
   margin-bottom: 40px;
   background-image: linear-gradient(to right, rgba(#0b0910, 0.8), #0b0910 12%);
 
-
   @include mq-min(768px) {
+    width: 360px;
     margin-bottom: 0;
   }
 
@@ -30,6 +29,9 @@
 }
 
 .our-team__carousel {
+  user-select: none;
+  pointer-events: none;
+
   @include mq-min(768px) {
     flex-grow: 1;
     margin-left: -20px;

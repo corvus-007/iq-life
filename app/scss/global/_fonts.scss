@@ -9,6 +9,7 @@
     url("fonts/tt_norms/TTNorms-ExtraBoldItalic.woff") format("woff");
   font-weight: 800;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -17,6 +18,7 @@
     url("fonts/tt_norms/TTNorms-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -25,6 +27,7 @@
     url("fonts/tt_norms/TTNorms-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -33,6 +36,7 @@
     url("fonts/tt_norms/TTNorms-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -42,6 +46,7 @@
     url("fonts/tt_norms/TTNorms-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -50,6 +55,7 @@
     url("fonts/tt_norms/TTNorms-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -58,6 +64,7 @@
     url("fonts/tt_norms/TTNorms-Heavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -66,6 +73,7 @@
     url("fonts/tt_norms/TTNorms-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -75,6 +83,7 @@
     url("fonts/tt_norms/TTNorms-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -84,6 +93,7 @@
     url("fonts/tt_norms/TTNorms-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -93,6 +103,7 @@
     url("fonts/tt_norms/TTNorms-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -102,6 +113,7 @@
     url("fonts/tt_norms/TTNorms-ExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -111,6 +123,7 @@
     url("fonts/tt_norms/TTNorms-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -119,6 +132,7 @@
     url("fonts/tt_norms/TTNorms-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -127,6 +141,7 @@
     url("fonts/tt_norms/TTNorms-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -136,6 +151,7 @@
     url("fonts/tt_norms/TTNorms-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -145,6 +161,7 @@
     url("fonts/tt_norms/TTNorms-HeavyItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
+  font-display: fallback;
 }
 
 @font-face {
@@ -154,6 +171,7 @@
     url("fonts/tt_norms/TTNorms-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -161,4 +179,5 @@
   src: url("fonts/amaticsc/amaticsc-regular-webfont.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
+  font-display: fallback;
 }

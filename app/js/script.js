@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Optional parameters
     spaceBetween: 24,
     slidesPerView: 1,
-    // allowTouchMove: false,
+    allowTouchMove: false,
     centeredSlides: true,
     centerInsufficientSlides: true,
     breakpointsInverse: true,
     breakpoints: {
       667: {
-        slidesPerView: 2,
+        slidesPerView: 2
       },
       1280: {
         slidesPerView: 4,
